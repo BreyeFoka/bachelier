@@ -124,7 +124,7 @@ function App() {
   return (
     <div className="App flex flex-col  space-x-5 my-3 mx-0 overflow-y-scroll no-scrollbar">
       <div className='mt-3 flex flex-col'>
-        <h1 className='text-3xl w-36 font-semibold border rounded-xl bg-orange-500 text-white px-2 py-2'>Bachelier</h1>
+        <h1 className='text-3xl w-36 font-semibold border rounded-xl bg-orange-500  text-white px-2 py-2'>Bachelier</h1>
       </div>
       <div className='mt-64 flex flex-col justify-center items-center align-center'>
         <h1 className='text-3xl font-semibold align-center'>Veuillez entrer votre matricule</h1>
@@ -150,7 +150,7 @@ function App() {
         </div>
 
       ) : (
-        studentNumber && <p className='text-white bg-orange-500 rounded-xl px-2 py-2'>Dsl Votre numero est erroné ou ne figure pas sur la liste des admis</p>
+        studentNumber && <p className='text-white bg-orange-500 rounded-xl mt-3 px-2 py-2'>Dsl Votre numero est erroné ou ne figure pas sur la liste des admis</p>
       )}
       </div>
     </div>
